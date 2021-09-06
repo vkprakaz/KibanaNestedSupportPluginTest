@@ -31,7 +31,7 @@ app.run(function(config, Private) {
       let nestedObj = '';
       _.forEach(formattedValue, function(item) {
         if (nestedObj.length > 0) {
-          nestedObj += ', ';
+          nestedObj += '|,@#$| ';
         }
         nestedObj += '&#123;';
         const sourcePairs = [];
